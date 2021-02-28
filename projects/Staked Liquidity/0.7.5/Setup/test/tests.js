@@ -5,8 +5,9 @@ describe('Contract', function () {
     const tokenDepositAmount = ethers.utils.parseEther("1000");
     const wethDepositAmount = ethers.utils.parseEther("10");
     const wethAddress = "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2";
+    const factoryAddress = "0x5C69bEe701ef814a2B6a3EDD4B1652CB9cc5aA6f";
 
-    let staking, token, weth;
+    let staking, token, weth, factory;
     before(async () => {
         const Token = await ethers.getContractFactory("Token");
         token = await Token.deploy(supply);
@@ -23,9 +24,27 @@ describe('Contract', function () {
         const Staking = await ethers.getContractFactory("Staking");
         staking = await Staking.deploy();
         await staking.deployed();
+
+        factory = await ethers.getContractAt("IUniswapV2Factory", factoryAddress);
     });
 
     it('should have created a pair', async () => {
+        const pairAddr = await factory.getPair(token.address, wethAddress);
+        const pair = await ethers.getContractAt("IUniswapV2Pair", pairAddr);
+
+        const { reserve0, reserve1 } = await pair.getReserves();
+
+        assert.equal(reserve0.toString(), tokenDepositAmount);
+        assert.equal(reserve1.toString(), wethDepositAmount);
+
+        const amountA = ethers.utils.parseEther("1");
+        const price = amountA.mul(reserve1).div(reserve0);
+
+        console.log( ethers.utils.formatEther(price) );
+
+        // console.log(reserves.reserve0.toString());
+        // console.log(reserves.reserve1.toString());
+        
         // const name = await contract.getName();
         // assert.equal(name, "Dai Stablecoin");
     });

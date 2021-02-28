@@ -1,0 +1,17 @@
+{
+  "executablePath": "contracts/IUniswapV2Pair.sol",
+  "name": "IUniswapV2Pair.sol",
+  "executable": true,
+  "hasProgress": false,
+  "mode": "sol",
+  "readOnly": true,
+  "testFixture": false,
+  "visible": true,
+  "stageContainerId": "603bf251fac9541bdf5c106d",
+  "codeStageIds": [
+    "603bf268fac9541bdf5c106e"
+  ],
+  "id": "603c0ae1fac9541bdf5c107f",
+  "initialCode": "$$LOOKUP",
+  "fileLocation": null
+}
