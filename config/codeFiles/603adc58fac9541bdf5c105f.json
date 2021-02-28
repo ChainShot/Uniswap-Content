@@ -1,0 +1,17 @@
+{
+  "executablePath": "test/getDai.js",
+  "name": "getDai.js",
+  "executable": true,
+  "hasProgress": false,
+  "mode": "javascript",
+  "readOnly": true,
+  "testFixture": true,
+  "visible": false,
+  "stageContainerId": "603ad305fac9541bdf5c1054",
+  "codeStageIds": [
+    "603ad42cfac9541bdf5c1055"
+  ],
+  "id": "603adc58fac9541bdf5c105f",
+  "initialCode": "$$LOOKUP",
+  "fileLocation": null
+}

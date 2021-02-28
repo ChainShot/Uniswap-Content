@@ -1,0 +1,20 @@
+{
+  "containerId": "603bd0edfac9541bdf5c1061",
+  "title": "Oracle",
+  "abiValidations": "$$LOOKUP",
+  "task": "$$LOOKUP",
+  "details": "$$LOOKUP",
+  "id": "603be5c9fac9541bdf5c1062",
+  "type": "CodeStage",
+  "language": "solidity",
+  "languageVersion": "0.7.5",
+  "testFramework": "truffle_with_mocha",
+  "codeFileIds": [
+    "603be5c9fac9541bdf5c1063",
+    "603be5c9fac9541bdf5c1064"
+  ],
+  "position": 0,
+  "youtubeId": null,
+  "src": null,
+  "forkBlockNumber": 11395144
+}

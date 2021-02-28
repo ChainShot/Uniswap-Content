@@ -1,0 +1,23 @@
+{
+  "containerId": "603ad305fac9541bdf5c1054",
+  "title": "Transfer From",
+  "abiValidations": "$$LOOKUP",
+  "task": "$$LOOKUP",
+  "details": "$$LOOKUP",
+  "id": "603ad42cfac9541bdf5c1055",
+  "type": "CodeStage",
+  "language": "solidity",
+  "languageVersion": "0.7.5",
+  "testFramework": "truffle_with_mocha",
+  "codeFileIds": [
+    "603ad42cfac9541bdf5c1056",
+    "603ad42cfac9541bdf5c1057",
+    "603ad45efac9541bdf5c1059",
+    "603ad754fac9541bdf5c105b",
+    "603adc58fac9541bdf5c105f"
+  ],
+  "position": 0,
+  "youtubeId": null,
+  "src": null,
+  "forkBlockNumber": 11395144
+}
