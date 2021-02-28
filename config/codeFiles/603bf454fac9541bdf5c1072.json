@@ -1,0 +1,17 @@
+{
+  "executablePath": "contracts/IUniswapV2Router02.sol",
+  "name": "IUniswapV2Router02.sol",
+  "executable": true,
+  "hasProgress": false,
+  "mode": "sol",
+  "readOnly": true,
+  "testFixture": false,
+  "visible": true,
+  "stageContainerId": "603bf251fac9541bdf5c106d",
+  "codeStageIds": [
+    "603bf268fac9541bdf5c106e"
+  ],
+  "id": "603bf454fac9541bdf5c1072",
+  "initialCode": "$$LOOKUP",
+  "fileLocation": null
+}

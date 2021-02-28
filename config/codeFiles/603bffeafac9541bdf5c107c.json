@@ -1,0 +1,17 @@
+{
+  "executablePath": "contracts/Token.sol",
+  "name": "Token.sol",
+  "executable": true,
+  "hasProgress": false,
+  "mode": "sol",
+  "readOnly": true,
+  "testFixture": false,
+  "visible": true,
+  "stageContainerId": "603bf251fac9541bdf5c106d",
+  "codeStageIds": [
+    "603bf268fac9541bdf5c106e"
+  ],
+  "id": "603bffeafac9541bdf5c107c",
+  "initialCode": "$$LOOKUP",
+  "fileLocation": null
+}

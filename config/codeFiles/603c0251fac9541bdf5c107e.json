@@ -1,0 +1,16 @@
+{
+  "executablePath": "test/getWeth.js",
+  "name": "getWeth.js",
+  "executable": true,
+  "hasProgress": false,
+  "mode": "javascript",
+  "readOnly": true,
+  "testFixture": true,
+  "visible": true,
+  "stageContainerId": "603bf251fac9541bdf5c106d",
+  "codeStageIds": [
+    "603bf268fac9541bdf5c106e"
+  ],
+  "id": "603c0251fac9541bdf5c107e",
+  "initialCode": "$$LOOKUP"
+}

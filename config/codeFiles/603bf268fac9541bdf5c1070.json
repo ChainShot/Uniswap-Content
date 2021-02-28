@@ -1,0 +1,17 @@
+{
+  "executablePath": "contracts/Staking.sol",
+  "name": "Staking.sol",
+  "testFixture": false,
+  "stageContainerId": "603bf251fac9541bdf5c106d",
+  "codeStageIds": [
+    "603bf268fac9541bdf5c106e"
+  ],
+  "id": "603bf268fac9541bdf5c1070",
+  "initialCode": "$$LOOKUP",
+  "mode": "sol",
+  "visible": true,
+  "executable": true,
+  "hasProgress": true,
+  "fileLocation": null,
+  "readOnly": null
+}

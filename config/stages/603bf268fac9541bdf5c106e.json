@@ -1,0 +1,27 @@
+{
+  "containerId": "603bf251fac9541bdf5c106d",
+  "title": "Setup",
+  "abiValidations": "$$LOOKUP",
+  "task": "$$LOOKUP",
+  "details": "$$LOOKUP",
+  "id": "603bf268fac9541bdf5c106e",
+  "type": "CodeStage",
+  "language": "solidity",
+  "languageVersion": "0.7.5",
+  "testFramework": "truffle_with_mocha",
+  "codeFileIds": [
+    "603bf268fac9541bdf5c106f",
+    "603bf268fac9541bdf5c1070",
+    "603bf454fac9541bdf5c1072",
+    "603bf470fac9541bdf5c1074",
+    "603bfd5efac9541bdf5c1076",
+    "603bfe01fac9541bdf5c1078",
+    "603bfe2afac9541bdf5c107a",
+    "603bffeafac9541bdf5c107c",
+    "603c0251fac9541bdf5c107e"
+  ],
+  "position": 0,
+  "youtubeId": null,
+  "src": null,
+  "forkBlockNumber": 11395144
+}
