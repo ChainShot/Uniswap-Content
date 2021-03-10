@@ -10,7 +10,7 @@ contract Contract {
 
 	// accept dai from each member 
 	function deposit() external {
-		dai.transferFrom(msg.sender, address(this), 50e18);
+		
 	}
 
 	// swap from dai to some erc20 token
