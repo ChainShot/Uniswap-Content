@@ -1,0 +1,16 @@
+{
+  "executablePath": "test/tests.js",
+  "name": "tests.js",
+  "executable": true,
+  "hasProgress": false,
+  "mode": "javascript",
+  "readOnly": true,
+  "testFixture": true,
+  "visible": true,
+  "stageContainerId": "603ad305fac9541bdf5c1054",
+  "codeStageIds": [
+    "60483eae3561f0716e792d35"
+  ],
+  "id": "6048403a3561f0716e792d41",
+  "initialCode": "$$LOOKUP"
+}

@@ -1,0 +1,23 @@
+{
+  "containerId": "603ad305fac9541bdf5c1054",
+  "title": "From DAI",
+  "abiValidations": "$$LOOKUP",
+  "task": "$$LOOKUP",
+  "details": "$$LOOKUP",
+  "id": "60483f9d3561f0716e792d3c",
+  "type": "CodeStage",
+  "language": "solidity",
+  "languageVersion": "0.7.5",
+  "testFramework": "truffle_with_mocha",
+  "codeFileIds": [
+    "60483eae3561f0716e792d37",
+    "60483eae3561f0716e792d39",
+    "60483eae3561f0716e792d3a",
+    "60483eae3561f0716e792d3b",
+    "60483fe03561f0716e792d40"
+  ],
+  "position": 1,
+  "youtubeId": null,
+  "src": null,
+  "forkBlockNumber": 11395144
+}
